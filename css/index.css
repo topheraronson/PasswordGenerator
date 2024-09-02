@@ -7,9 +7,27 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: black;
 }
 .container {
     width: 550px;
     height: 550px;
     background: #1F2937;
+}
+
+.container h1 {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 115px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.container h1 span {
+    color: #10B981;
+    display: block;
 }
