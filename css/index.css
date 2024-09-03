@@ -43,9 +43,23 @@ body {
     width: 200px;
     font-size: 16px;
     padding: 10px 20px;
-    border: none;
+    border: 3px solid #10B981;
     border-radius: 5px;
     background: #10B981;
     color: white;
     margin-bottom: 35px;
+}
+
+.container button:hover {
+    background: #1F2937;
+    color: #10B981
+}
+
+.container hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #2F3E53;
+    margin: 1em 0;
+    padding: 0;
 }
