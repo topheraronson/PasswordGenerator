@@ -13,6 +13,7 @@ body {
     width: 550px;
     height: 550px;
     background: #1F2937;
+    padding: 0 50px;
 }
 
 .container h1 {
@@ -23,11 +24,17 @@ body {
     font-size: 40px;
     color: #FFFFFF;
     margin-top: 115px;
-    margin-left: 50px;
     margin-bottom: 10px;
 }
 
 .container h1 span {
     color: #10B981;
     display: block;
+}
+
+.container p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #D5D4D8;
+    margin-bottom: 50px;
 }
