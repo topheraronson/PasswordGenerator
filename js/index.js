@@ -9,6 +9,9 @@ const passwordOne = document.getElementById("password-one");
 const passwordTwo = document.getElementById("password-two");
 
 function generatePassword() {
+    passwordOne.textContent = ""
+    passwordTwo.textContent = ""
+
     for (let i = 0; i < 16; i++) {
         passwordOne.textContent += characters[Math.floor(Math.random() * characters.length)];
     }
