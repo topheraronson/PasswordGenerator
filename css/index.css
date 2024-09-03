@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
+    background: #1b1b1b;
     font-family: "Inter", sans-serif;
 }
 .container {
@@ -15,6 +15,9 @@ body {
     height: 550px;
     background: #1F2937;
     padding: 0 50px;
+    border-radius: 10px;
+    border: 1px solid #10B981;
+    box-shadow: 0 0 10px #10B981;
 }
 
 .container h1 {
@@ -62,4 +65,21 @@ body {
     border-top: 1px solid #2F3E53;
     margin: 1em 0;
     padding: 0;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-between;
+}
+
+.passwords div {
+    width: 260px;
+    height: 40px;
+    background-color: #273549;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #55F991;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
